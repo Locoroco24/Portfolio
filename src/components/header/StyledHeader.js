@@ -27,9 +27,10 @@ export const Nav = styled.nav`
 export const NavLink = styled.a`
   text-decoration: none;
   color: #fff;
+  font-weight: bold;
   transition: color .2s linear;
   &:hover {
-    ${themeColor};
+    color: ${themeColor};
   }
 `
 

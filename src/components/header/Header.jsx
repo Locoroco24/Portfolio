@@ -1,4 +1,3 @@
-import React from 'react';
 import {Header, HeaderWrapper, Nav, NavLink} from "./StyledHeader";
 import {BurgerMenu} from "./Burger";
 
@@ -9,9 +8,9 @@ export const HeaderComponent = () => {
       <HeaderWrapper>
         <Nav>
           <NavLink href="#">Привет!</NavLink>
-          <NavLink href="#">Обо мне</NavLink>
-          <NavLink href="#">Мои работы</NavLink>
-          <NavLink href="#">Контакты</NavLink>
+          <NavLink href='#skills'>Обо мне</NavLink>
+          <NavLink href="#portfolio">Мои работы</NavLink>
+          <NavLink href="#contacts">Контакты</NavLink>
         </Nav>
 
         <BurgerMenu />

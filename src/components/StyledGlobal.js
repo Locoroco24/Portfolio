@@ -8,6 +8,15 @@ export const GlobalStyles = css`
   *:before,
   *:after {
     box-sizing: border-box;
+  },
+  h1, h2, h3, p {
+    margin: 0;
+  },
+  h2 {
+    margin-bottom: 40px;
+  },
+  section {
+    padding: 60px 0;
   }
 `
 
@@ -22,11 +31,14 @@ export const AppWrapper = styled.div`
 
 export const Wrapper = css`
   width: 100%;
-  max-width: 1140px;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 20px;
 `
 
-export const themeColor = css`
-  color: #88b848;
+export const themeColor = `#88b848`;
+
+
+export const Colored = styled.span`
+  color: ${themeColor}
 `
